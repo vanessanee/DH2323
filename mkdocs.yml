@@ -1,0 +1,7 @@
+site_name: FFD Deformation Blog
+
+theme:
+  name: material
+
+nav:
+  - Home: index.md
