@@ -1,0 +1,15 @@
+site_name: Comparing FFD and PBD deformation project
+site_url: https://vanessanee.github.io/DH2323/
+theme:
+  name: material
+nav:
+  - Home: index.md
+  - Specification: specification.md
+  - Blog:
+      - Week 1: blog/week1.md
+      - Week 2: blog/week2.md
+      - Week 3: blog/week3.md
+      - Implementation: blog/implementation.md
+      - Results: blog/results.md
+      - Reflection: blog/reflection.md
+  - Final Report: report/final_report.md
