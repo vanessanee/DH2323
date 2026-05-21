@@ -29,7 +29,7 @@ behaviour by iteratively satisfying constraints between connected vertices. It i
 the method underlying Unity's built-in cloth and soft-body systems.
 
 We spent most of this week reading the original papers — Sederberg & Parry (1986)
-for FFD and Müller et al. (2007) for PBD — and searching for existing Unity
+for FFD and Müller et al. (2007) for PBD, and searching for existing Unity
 implementations to use as reference.
 
 ## Challenges

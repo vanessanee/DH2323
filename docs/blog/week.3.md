@@ -3,7 +3,7 @@
 ## User evaluation
 
 This week we ran our user study with **4 participants** recruited from KTH,
-all of whom were students. The sessions were held in Middle, where we set up
+all of whom were students. The sessions were held in Middla, where we set up
 the Meta Quest 3 and guided each participant through both deformation conditions.
 
 Each participant interacted with deformable objects using both FFD and PBD,
@@ -14,7 +14,7 @@ physical plausibility, and overall experience.
 
 ## Results
 
-Text about what participants thought — which method they preferred, any
+Text about what participants thought, which method they preferred, any
 patterns in the responses, anything surprising.
 
 <!-- ![Questionnaire results](images/results_chart.png) -->
