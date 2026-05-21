@@ -1,8 +1,7 @@
 site_name: FFD Deformation Project
-
+site_url: https://vanessanee.github.io/DH2323/
 theme:
   name: material
-
 nav:
   - Home: index.md
   - Specification: specification.md
