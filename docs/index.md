@@ -1,14 +1,15 @@
-# Free-Form Deformation (FFD)
+# Computer Graphics and Interaction Comparision between geometric and physics based deformation models
 
-This blog documents our implementation of FFD in Unity.
+Welcome to the blog for our project for DH2323 Computer Graphics and Interaction. In this blog you will see our progress and journey througout this project.
 
-## Overview
+## Abstract
 
-We use a 3×3×3 control lattice and Bernstein polynomial weighting.
+insert abstract
 
+<!--
 ## Implementation
 
-Vertices are mapped into STU space and deformed using control points.
+Vertices are mapped into STU space and deformed using control points. -->
 
 <!-- # Welcome to MkDocs
 
