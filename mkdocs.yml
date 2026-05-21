@@ -1,7 +1,15 @@
-site_name: FFD Deformation Blog
+site_name: FFD Deformation Project
 
 theme:
   name: material
 
 nav:
   - Home: index.md
+  - Specification: specification.md
+  - Blog:
+      - Week 1: blog/week1.md
+      - Week 2: blog/week2.md
+      - Implementation: blog/implementation.md
+      - Results: blog/results.md
+      - Reflection: blog/reflection.md
+  - Final Report: report/final_report.md
