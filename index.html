@@ -23,11 +23,14 @@
     
     
       
-        <title>FFD Deformation Project</title>
+        <title>Comparing FFD and PBD deformation project</title>
       
     
     
       <link rel="stylesheet" href="assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -41,8 +44,8 @@
         
         
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
-        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,300i,400,400i,700,700i%7CJetBrains+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Inter";--md-code-font:"JetBrains Mono"}</style>
       
     
     
@@ -55,7 +58,12 @@
   </head>
   
   
-    <body dir="ltr">
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="pink" data-md-color-accent="organge">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
@@ -64,7 +72,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#free-form-deformation-ffd" class="md-skip">
+        <a href="#computer-graphics-and-interaction-comparision-between-geometric-and-physics-based-deformation-models" class="md-skip">
           Skip to content
         </a>
       
@@ -76,11 +84,9 @@
     
       
 
-  
-
-<header class="md-header md-header--shadow" data-md-component="header">
+<header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="." title="FFD Deformation Project" class="md-header__button md-logo" aria-label="FFD Deformation Project" data-md-component="logo">
+    <a href="." title="Comparing FFD and PBD deformation project" class="md-header__button md-logo" aria-label="Comparing FFD and PBD deformation project" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -94,7 +100,7 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            FFD Deformation Project
+            Comparing FFD and PBD deformation project
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
@@ -107,8 +113,8 @@
       </div>
     </div>
     
+      
     
-      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
     
     
     
@@ -162,6 +168,94 @@
       
         
           
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="specification/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Specification
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="blog/phase1/" class="md-tabs__link">
+          
+  
+  
+  Blog
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="report/final_report/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Final Report
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
         
       
       <main class="md-main" data-md-component="main">
@@ -175,16 +269,18 @@
                     
 
 
+  
 
-<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="FFD Deformation Project" class="md-nav__button md-logo" aria-label="FFD Deformation Project" data-md-component="logo">
+    <a href="." title="Comparing FFD and PBD deformation project" class="md-nav__button md-logo" aria-label="Comparing FFD and PBD deformation project" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
 
     </a>
-    FFD Deformation Project
+    Comparing FFD and PBD deformation project
   </label>
   
   <ul class="md-nav__list" data-md-scrollfix>
@@ -256,10 +352,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#overview" class="md-nav__link">
+  <a href="#abstract" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Overview
+        Abstract
       
     </span>
   </a>
@@ -267,10 +363,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#implementation" class="md-nav__link">
+  <a href="#demo" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Implementation
+        Demo
       
     </span>
   </a>
@@ -322,6 +418,9 @@
     
     
     
+      
+      
+    
     
     <li class="md-nav__item md-nav__item--nested">
       
@@ -366,14 +465,14 @@
   
   
     <li class="md-nav__item">
-      <a href="blog/week1/" class="md-nav__link">
+      <a href="blog/phase1/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Week 1
+    Phase 1
   
 
     
@@ -394,14 +493,14 @@
   
   
     <li class="md-nav__item">
-      <a href="blog/week2/" class="md-nav__link">
+      <a href="blog/phase2/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Week 2
+    Phase 2
   
 
     
@@ -422,14 +521,14 @@
   
   
     <li class="md-nav__item">
-      <a href="blog/implementation/" class="md-nav__link">
+      <a href="blog/phase3/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Implementation
+    Phase 3
   
 
     
@@ -457,35 +556,7 @@
   <span class="md-ellipsis">
     
   
-    Results
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="blog/reflection/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Reflection
+    User Evaluation
   
 
     
@@ -560,10 +631,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#overview" class="md-nav__link">
+  <a href="#abstract" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Overview
+        Abstract
       
     </span>
   </a>
@@ -571,10 +642,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#implementation" class="md-nav__link">
+  <a href="#demo" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Implementation
+        Demo
       
     </span>
   </a>
@@ -598,12 +669,26 @@
 
 
 
-<h1 id="free-form-deformation-ffd">Free-Form Deformation (FFD)</h1>
-<p>This blog documents our implementation of FFD in Unity.</p>
-<h2 id="overview">Overview</h2>
-<p>We use a 3×3×3 control lattice and Bernstein polynomial weighting.</p>
-<h2 id="implementation">Implementation</h2>
-<p>Vertices are mapped into STU space and deformed using control points.</p>
+<h1 id="computer-graphics-and-interaction-comparision-between-geometric-and-physics-based-deformation-models">Computer Graphics and Interaction Comparision between geometric and physics based deformation models</h1>
+<p>Welcome to the blog for our project for DH2323 Computer Graphics and Interaction. In this blog you will see our progress and journey througout this project.</p>
+<h2 id="abstract">Abstract</h2>
+<p>insert abstract</p>
+<h2 id="demo">Demo</h2>
+<iframe width="100%" height="415" src="https://www.youtube.com/embed/X8v5PgzHlc0" 
+frameborder="0" allowfullscreen></iframe>
+
+<ul>
+<li><a href="specification/">Specification</a> — research question and goals</li>
+<li><a href="blog/phase1/">Phase 1</a> — project setup and research</li>
+<li><a href="blog/phase2/">Phase 2</a> — Unity development and evaluation design</li>
+<li><a href="blog/phase3/">Phase 3</a> — User testing and results</li>
+<li>
+<p><a href="blog/results/">User Evaluation</a> — User testing and results</p>
+</li>
+<li>
+<p><a href="report/final_report/">Final Report</a> — full paper</p>
+</li>
+</ul>
 <!-- # Welcome to MkDocs
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
@@ -641,6 +726,12 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 <script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
         
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
       </main>
       
         <footer class="md-footer">
@@ -670,7 +761,7 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": ".", "features": [], "search": "assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": ".", "features": ["navigation.tabs", "navigation.top", "content.code.copy"], "search": "assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
       <script src="assets/javascripts/bundle.79ae519e.min.js"></script>
