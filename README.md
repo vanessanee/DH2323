@@ -28,5 +28,6 @@ https://youtu.be/X8v5PgzHlc0
 
 https://youtu.be/Yss2BZLALMM
 
+Report:
 
-[📝 Full Report]
+[DH2323_Report.pdf](https://github.com/user-attachments/files/28224619/DH2323_Report.pdf)
