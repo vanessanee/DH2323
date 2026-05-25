@@ -844,47 +844,17 @@
 <strong>Date:</strong> May 2026</p>
 <hr />
 <h2 id="research-question">Research Question</h2>
-<p>How do different meth-
-ods of object transformations affect the user’s
-perception? How do geometric deformation
-methods (e.g. FFD) and physics-based meth-
-ods (e.g. PBD or MSM) differ in terms of
-visual realism or quality, physical plausibility,
-and user perception when applied to interactive
-object manipulation in VR? what will be eval-
-uated: visual and physical realism, does it look
-good and make realistically sense? perception:
-how do humans perceive the methods?</p>
+<p>How do geometric and physics-based deformation methods differ in terms of visual realism, physical plausibility, and user perception when applied to interactive object manipulation in VR? Specifically, this study compares Free-Form Deformation (FFD) as a geometric approach with Position-Based Dynamics (PBD) as a physics-based approach, evaluating how each method influences the way users perceive and experience deformable objects in an immersive virtual reality environment.</p>
 <h2 id="background">Background</h2>
-<p>Extended reality (XR) applications rely heavily on convincing graphical representation
-and interaction of virtual objects. Real-time physics simulations are considered essential
-for immersive XR environments because they enhance realism, user experience, and the
-overall sense of presence within a virtual scene.</p>
-<p>Different deformation techniques play an important role across a variety of XR
-applications, including virtual clothing fitting, medical training, educational
-environments, and interactive art installations. Selecting an appropriate deformation
-model can be challenging since different approaches offer varying trade-offs between
-realism, computational efficiency, controllability, and responsiveness.</p>
+<p>Extended reality (XR) applications rely heavily on convincing graphical representation and interaction of virtual objects. Real-time physics simulations are considered essential for immersive XR environments because they enhance realism, user experience, and the overall sense of presence within a virtual scene.
+Different deformation techniques play an important role across a variety of XR applications, including virtual clothing fitting, medical training, educational environments, and interactive art installations. Selecting an appropriate deformation model can be challenging since different approaches offer varying trade-offs between realism, computational efficiency, controllability, and responsiveness.</p>
 <h2 id="the-two-methods">The Two Methods</h2>
 <h3 id="free-form-deformation-ffd">Free-Form Deformation (FFD)</h3>
-<p>A geometric technique that deforms a 3D mesh by embedding it within a flexible lattice
-of control points. Originally introduced by Sederberg and Parry (1986), FFD enables
-smooth, continuous deformation of arbitrary 3D geometry using trivariate Bernstein
-polynomial blending functions. It was selected for this study due to its mathematical
-rigour and widespread use in both academic research and production 3D software.</p>
+<p>A geometric technique that deforms a 3D mesh by embedding it within a flexible lattice of control points. Originally introduced by Sederberg and Parry (1986), FFD enables smooth, continuous deformation of arbitrary 3D geometry using trivariate Bernstein polynomial blending functions. It was selected for this study due to its mathematical rigour and widespread use in both academic research and production 3D software.</p>
 <h3 id="position-based-dynamics-pbd">Position-Based Dynamics (PBD)</h3>
-<p>A physics-based simulation method introduced by Müller et al. (2007), widely used for
-real-time simulation of deformable bodies in games and interactive applications. Unlike
-traditional physics approaches, PBD skips force calculation entirely and instead directly
-adjusts vertex positions to satisfy physical constraints. It was selected as it underlies
-Unity's built-in soft-body and cloth systems, making it directly relevant to real-time
-VR development.</p>
+<p>A physics-based simulation method introduced by Müller et al. (2007), widely used for real-time simulation of deformable bodies in games and interactive applications. Unlike traditional physics approaches, PBD skips force calculation entirely and instead directly adjusts vertex positions to satisfy physical constraints. It was selected as it is closely related to the constraint-based approach underlying Unity's built-in soft-body and cloth systems, making it directly relevant to real-time VR development.</p>
 <h2 id="user-evaluation">User Evaluation</h2>
-<p>Four participants aged 21–24 were recruited through convenience sampling, all
-students in Interactive Media Technology at KTH. The study used a within-subject
-design where all participants experienced both FFD and PBD in VR using the
-Meta Quest 3. Data was collected through semi-structured interviews and analysed
-using an inductive thematic approach, identifying five themes.</p>
+<p>Four participants aged 21–24 were recruited through convenience sampling, all students in Interactive Media Technology at KTH Royal Institute of Technology. The study used a within-subject design where all participants experienced both conditions, FFD and PBD in VR using the Meta Quest 3. To minimise order effects, half of the participants started with FFD and the other half with PBD. Data was collected through semi-structured interviews after each condition and a final comparative session, and analysed using an inductive thematic approach identifying five themes across the dimensions of visual realism, physical plausibility, and overall user perception</p>
 <h2 id="tools">Tools</h2>
 <ul>
 <li>Unity 6</li>
@@ -895,28 +865,28 @@ using an inductive thematic approach, identifying five themes.</p>
 <h2 id="references">References</h2>
 <ul>
 <li>
-<p>Sarah FF Gibson and Brian Mirtich. <em>A Survey of Deformable Modeling in Computer Graphics</em>. Technical Report. Mitsubishi Electric Research Laboratories, 1997.</p>
+<p>Shounak Chatterjee. "Free-Form Shape Modeling in XR: A Systematic Review". In: arXiv preprint arXiv:2401.00924 (2024).</p>
 </li>
 <li>
-<p>Robert S Kennedy et al. "Simulator Sickness Questionnaire: An Enhanced Method for Quantifying Simulator Sickness". In: <em>The International Journal of Aviation Psychology</em> 3.3 (1993), pp. 203–220.</p>
+<p>Sarah FF Gibson and Brian Mirtich. A Survey of Deformable Modeling in Computer Graphics. Technical Report. Mitsubishi Electric Research Laboratories, 1997.</p>
 </li>
 <li>
-<p>Hyun K Kim et al. "Virtual Reality Sickness Questionnaire (VRSQ): Motion Sickness Measurement Index in a Virtual Reality Environment". In: <em>Applied Ergonomics</em> 69 (2018), pp. 66–73.</p>
+<p>Robert S Kennedy et al. "Simulator Sickness Questionnaire: An Enhanced Method for Quantifying Simulator Sickness". In: The International Journal of Aviation Psychology 3.3 (1993), pp. 203–220.</p>
 </li>
 <li>
-<p>Taeheon Kim, Jun Ma, and Min Hong. "Real-Time Cloth Simulation in Extended Reality: Comparative Study Between Unity Cloth Model and Position-Based Dynamics Model with GPU". In: <em>Applied Sciences</em> 15.12 (2025), p. 6611.</p>
+<p>Hyun K Kim et al. "Virtual Reality Sickness Questionnaire (VRSQ): Motion Sickness Measurement Index in a Virtual Reality Environment". In: Applied Ergonomics 69 (2018), pp. 66–73.</p>
 </li>
 <li>
-<p>Matthias Müller et al. "Position Based Dynamics". In: <em>Journal of Visual Communication and Image Representation</em> 18.2 (2007), pp. 109–118.</p>
+<p>Taeheon Kim, Jun Ma, and Min Hong. "Real-Time Cloth Simulation in Extended Reality: Comparative Study Between Unity Cloth Model and Position-Based Dynamics Model with GPU". In: Applied Sciences 15.12 (2025), p. 6611.</p>
 </li>
 <li>
-<p>Thomas W. Sederberg and Scott R. Parry. <em>Free-Form Deformation of Solid Geometric Models</em>. Technical Report 4. Brigham Young University, 1986. DOI: 10.1145/15886.15903.</p>
+<p>Matthias Müller et al. "Position Based Dynamics". In: Journal of Visual Communication and Image Representation 18.2 (2007), pp. 109–118.</p>
 </li>
 <li>
-<p>Nak-Jun Sung et al. "Real-Time Physics Simulation Method for XR Application". In: <em>Computers</em> 14.1 (2025), p. 17.</p>
+<p>Thomas W. Sederberg and Scott R. Parry. Free-Form Deformation of Solid Geometric Models. Technical Report 4. Brigham Young University, 1986. DOI: 10.1145/15886.15903.</p>
 </li>
 <li>
-<p>TutorialsPoint. <em>Computer Graphics - Deformation Animation</em>. Accessed: 2026-04-23. n.d.</p>
+<p>Nak-Jun Sung et al. "Real-Time Physics Simulation Method for XR Application". In: Computers 14.1 (2025), p. 17.</p>
 </li>
 </ul>
 

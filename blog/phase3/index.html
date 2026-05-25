@@ -720,31 +720,45 @@
 
 
 
-<h1 id="phase-3-user-testing-wrapping-up">Phase 3 — User Testing &amp; Wrapping Up</h1>
+<h1 id="phase-3-user-testing-wrapping-up">Phase 3: User Testing &amp; Wrapping Up</h1>
 <h2 id="user-evaluation">User evaluation</h2>
 <p>This week we ran our user study with <strong>4 participants</strong> recruited from KTH,
 all of whom were students. The sessions were held in Middla, where we set up
 the Meta Quest 3 and guided each participant through both deformation conditions.</p>
-<p>Each participant interacted with deformable objects using both FFD and PBD,
-and filled out a questionnaire afterwards rating each method on visual realism,
-physical plausibility, and overall experience.</p>
-<!-- ![User testing session](images/user_testing.png) -->
-
+<p>Each participant interacted with a deformable sphere using both FFD and PBD
+in a within-subject design: half started with FFD and the other half with PBD
+to minimise order effects. After each condition, we conducted a short
+semi-structured interview asking about visual realism, physical plausibility,
+sense of control, and overall experience. A final comparative session followed
+where participants reflected on both methods together. We also administered the
+Virtual Reality Sickness Questionnaire (VRSQ) at the end of each session to
+monitor motion sickness.</p>
 <h2 id="results">Results</h2>
-<p>Text about what participants thought, which method they preferred, any
-patterns in the responses, anything surprising.</p>
-<!-- ![Questionnaire results](images/results_chart.png) -->
-
+<p>We analysed the interview responses using an inductive thematic approach,
+identifying five themes across the two conditions.</p>
+<ul>
+<li>Visual realism</li>
+<li>Physical plausibility</li>
+<li>Control and agency</li>
+<li>Satisfaction and enjoyment</li>
+<li>Perceived limitations</li>
+</ul>
 <h2 id="blog-report">Blog &amp; report</h2>
 <p>Alongside the user testing we finalised the report and set up this blog to
 document the project progress. The report covers the full mathematical
 background of both methods, the Unity implementation details, and the
 evaluation findings.</p>
 <h2 id="challenges">Challenges</h2>
-<p>Getting PBD to behave correctly in Unity took more effort than expected.
-The soft-body simulation kept producing unstable results until we adjusted
-the constraint solver iterations and stiffness parameters to values that
-produced physically plausible behaviour in real time.</p>
+<p>Getting PBD to behave correctly in Unity took considerably more effort than
+expected. The original implementation used file loading and compute shaders
+that were incompatible with Android, so we had to rewrite the file loading
+pipeline using Unity's StreamingAssets folder and UnityWebRequest to handle
+the Quest 3's file system. We also had to write a custom HLSL shader from
+scratch since the original repository included no rendering shader. On the
+FFD side, the main challenge was adapting the mouse-based interaction to VR
+controllers using Unity's XR Interaction Toolkit, which required replacing
+the original OnMouseDrag callbacks with XRSimpleInteractable components and
+rewriting the control point dragging logic entirely.</p>
 
 
 
