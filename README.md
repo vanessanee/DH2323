@@ -18,9 +18,12 @@ while also raising questions for more controlled follow-up studies
 
 Supervisor: [Prof. Christopher Peters](https://www.kth.se/profile/chpeters)
 
-Link to blog: https://vanessanee.github.io/DH2323/
+Link to blog: 
+
+https://vanessanee.github.io/DH2323/
 
 Demos:
+
 https://youtu.be/X8v5PgzHlc0
 
 https://youtu.be/Yss2BZLALMM
